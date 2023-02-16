@@ -1,0 +1,4 @@
+User#reader_activation
+
+<%= @greeting %>, find me in app/views/user_mailer/reader_activation.text.erb
+<%= edit_api_v1_readers_reader_activation_url(@reader.activation_token, email: @reader.email) %> 

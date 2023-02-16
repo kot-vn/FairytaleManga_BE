@@ -1,0 +1,10 @@
+
+[1mFrom:[0m /home/hoang/fairytale-manga/Backend/app/controllers/concerns/response.rb:9 Response#response_success:
+
+     [1;34m6[0m: [32mdef[0m [1;34mresponse_success[0m(data = {}, options = {})
+     [1;34m7[0m:   render({ [35mjson[0m: data, [35mstatus[0m: [33m:ok[0m, **options })
+     [1;34m8[0m:   
+ =>  [1;34m9[0m:   binding.pry
+    [1;34m10[0m:   
+    [1;34m11[0m: [32mend[0m
+

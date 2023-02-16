@@ -1,0 +1,7 @@
+<h1>User#reader_activation</h1>
+
+<p>
+  <%= @greeting %>, find me in app/views/user_mailer/reader_activation.html.erb
+</p>
+  <%= link_to "Activate", edit_api_v1_readers_reader_activation_url(@reader.activation_token,
+email: @reader.email) %>
